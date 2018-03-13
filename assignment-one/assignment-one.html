@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Repository</title>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<ul class="quote-slider">
+		<li id='quote0' style='right: 20%'>
+			"Working with them was literally terrible"
+			<div class="site">Elon Musk</div>
+		</li>
+		<li id='quote1'>
+			"They sucked and I hate them."
+			<div class="site">Everyone Ever</div>
+		</li>
+		<li id='quote2'>
+			"Frankly I don't understand why anyone would ever work with them"
+			<div class="site">Arnold Schwarzenegger</div>
+		</li>
+		<li id='quote3'>
+			"You have no friends. Go away."
+			<div class="site">Bill "Le Master Troll" Gates</div>
+		</li>
+		<li id='quote4'>
+			"No, Half Life 3 is never coming out."
+			<div class="site">Our Lord and Savior, Gabe Newell</div>
+		</li>
+	</ul>
+
+	<script type='text/javascript' src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script type='text/javascript' src='js/slick.js'></script>
+	<script type='text/javascript'>
+		$(document).ready(function(){
+			$('.quote-slider').slick({
+			  autoplay:true,
+			  autoplaySpeed:500,
+			  arrows:false,
+			  slidesToShow:1,
+			  slidesToScroll:1
+			});
+		});
+	</script>
+</body>
+</html>
